@@ -24,7 +24,7 @@ public class PatientRepositoryTextImpl implements PatientRepository {
                             patient.getMedicalRecordNumber() + "; " +
                             patient.getMedicalDiagnosis() + "; " +
                             patient.getLastDateVisit() + "; " +
-                            patient.getCurrentYearVisitCount() + ";");
+                            patient.getCurrentYearVisitCount());
                 }
             }
             printer.successWriteToFile();
